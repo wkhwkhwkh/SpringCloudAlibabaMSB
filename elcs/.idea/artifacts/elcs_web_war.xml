@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="elcs-web:war">
+    <output-path>$PROJECT_DIR$/elcs-web/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>elcs-web</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="elcs-web.war">
+      <element id="artifact" artifact-name="elcs-web:war exploded" />
+    </root>
+  </artifact>
+</component>
