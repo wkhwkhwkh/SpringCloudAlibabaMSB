@@ -28,5 +28,7 @@ public class Test {
 
         @SuppressWarnings({"unused","rwatype"}) //未使用     泛型
         ArrayList arrayList = new ArrayList();
+
+        System.out.println(1111);
     }
 }
