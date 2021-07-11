@@ -1,0 +1,9 @@
+com\utan\pojo\Items.class
+com\utan\pojo\Orders.class
+com\utan\pojo\OrderDetail.class
+com\utan\mapper\OrdersMapperCustom.class
+com\utan\pojo\UserCustomer.class
+com\utan\pojo\UserCustomerVo.class
+com\utan\pojo\OrderCustom.class
+com\utan\pojo\User.class
+com\utan\mapper\UserMapper.class

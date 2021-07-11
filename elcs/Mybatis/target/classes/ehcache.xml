@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ehcache updateCheck="true" monitoring="autodetect" dynamicConfig="true">
+
+    <!--  name:缓存名称
+          eternal:缓存中对象是否为永久的，如果是，超时设置将被忽略，对象从不过期。
+          maxElementsInMemory:内存缓存最大个数
+          maxEntriesLocalDisk:当maxElementsInMemory已达到最大值时,写入磁盘
+          timeToIdleSeconds:缓存对象失效前的闲置时间 默认值为：0 闲置时间无穷大
+          timeToLiveSeconds：缓存对象最大的有效时间(TTL) 默认值为：0 闲置时间无穷大
+          diskExpiryThreadIntervalSeconds：：磁盘失效线程运行时间间隔，默认是120秒
+          memoryStoreEvictionPolicy：当达到maxElementsInMemory限制时，Ehcache将会根据指定的策略去清理内存。
+                                     默认策略是LRU（最近最少使用）。你可以设置为FIFO（先进先出）或是LFU（较少使用）
+         clearOnFlush：内存数量最大时是否清除
+    -->
+
+    <!-- 磁盘缓存位置 -->
+    <diskStore path="D:/wengkeh/cache"/>
+
+    <!-- 默认缓存 -->
+    <defaultCache
+            maxEntriesLocalHeap="10000"
+            eternal="false"
+            timeToIdleSeconds="120"
+            timeToLiveSeconds="120"
+            maxEntriesLocalDisk="10000000"
+            diskExpiryThreadIntervalSeconds="120"
+            memoryStoreEvictionPolicy="LRU"/>
+</ehcache>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.utan.mapper.UserMapper">
+    <cache type="org.mybatis.caches.ehcache.EhcacheCache" eviction="LRU" flushInterval="600000" size="1024" readOnly="true"/>
+    <resultMap id="userMap" type="user">
+        <id column="id" property="id"/>
+        <result column="userName" property="userName"/>
+        <result column="birthday" property="birthday"/>
+        <result column="sex" property="sex"></result>
+        <result column="address" property="address"></result>
+    </resultMap>
+    <insert id="addUser" parameterType="user">
+        <selectKey keyProperty="id" order="BEFORE" resultType="Integer">
+             select seq_userid.nextval from dual
+        </selectKey>
+        insert into t_user(id,userName,birthday,sex,address) values(#{id},#{userName},#{birthday},#{sex},#{address})
+    </insert>
+
+    <select id="getUser" parameterType="userCustomerVo" resultMap="userMap">
+        select * from t_user 
+        <where>
+            <include refid="userSql"></include>
+        </where>
+
+    </select>
+    
+    <sql id="userSql">
+        <if test="userCustomer != null">
+            <if test="userCustomer.userName != null and userCustomer.userName != ''">
+                and userName = #{userCustomer.userName}
+            </if>
+            <if test="userCustomer.sex != null and userCustomer.sex != ''">
+                and sex = #{userCustomer.sex}
+            </if>
+        </if>
+    </sql>
+
+    <select id="getUserIds" parameterType="list" resultType="user">
+        select id,userName,age,sex from t_user where
+        id in
+        <foreach collection="list" index="id" open="(" separator="," close=")" item="id">
+            #{id}
+        </foreach>
+    </select>
+</mapper>
