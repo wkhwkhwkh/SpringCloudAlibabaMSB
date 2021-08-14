@@ -9,7 +9,7 @@
         <result column="createtime" property="createTime"/>
         <result column="note" property="note"/>
         <!--配置关联映射单个对象的信息-->
-        <association property="user" javaType="com.utan.pojo.User">
+        <association property="person" javaType="com.utan.pojo.User">
             <!--column:指定唯一标识的列
                 javaType:映射到user的哪个属性-->
             <id column="userid" property="id"/>

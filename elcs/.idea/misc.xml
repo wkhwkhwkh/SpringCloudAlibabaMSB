@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/activiti" />
     <file type="web" url="file://$PROJECT_DIR$/elcs-web" />
+    <file type="web" url="file://$PROJECT_DIR$/Mybatis" />
+    <file type="web" url="file://$PROJECT_DIR$/spring" />
+    <file type="web" url="file://$PROJECT_DIR$/springmvc" />
   </component>
   <component name="JavadocGenerationManager">
     <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/../annotation" />
@@ -15,6 +19,12 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/elcs-web/pom.xml" />
+        <option value="$PROJECT_DIR$/Mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/spring/pom.xml" />
+        <option value="$PROJECT_DIR$/springmvc/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot1/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot02/pom.xml" />
+        <option value="$PROJECT_DIR$/activiti/pom.xml" />
       </list>
     </option>
   </component>

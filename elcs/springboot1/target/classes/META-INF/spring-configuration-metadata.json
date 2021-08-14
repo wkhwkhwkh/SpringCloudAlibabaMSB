@@ -1,0 +1,77 @@
+{
+  "groups": [
+    {
+      "name": "a",
+      "type": "com.tfb.pojo.Pig",
+      "sourceType": "com.tfb.pojo.Pig"
+    },
+    {
+      "name": "dog",
+      "type": "com.tfb.pojo.Dog",
+      "sourceType": "com.tfb.pojo.Dog"
+    },
+    {
+      "name": "user",
+      "type": "com.tfb.pojo.User",
+      "sourceType": "com.tfb.pojo.User"
+    }
+  ],
+  "properties": [
+    {
+      "name": "a.sex",
+      "type": "java.lang.String",
+      "sourceType": "com.tfb.pojo.Pig"
+    },
+    {
+      "name": "dog.age",
+      "type": "java.lang.Integer",
+      "sourceType": "com.tfb.pojo.Dog"
+    },
+    {
+      "name": "dog.name",
+      "type": "java.lang.String",
+      "sourceType": "com.tfb.pojo.Dog"
+    },
+    {
+      "name": "name",
+      "type": "java.lang.String",
+      "description": "Description for name."
+    },
+    {
+      "name": "user.age",
+      "type": "java.lang.Integer",
+      "sourceType": "com.tfb.pojo.User"
+    },
+    {
+      "name": "user.date",
+      "type": "java.util.Date",
+      "sourceType": "com.tfb.pojo.User"
+    },
+    {
+      "name": "user.dog",
+      "type": "com.tfb.pojo.Dog",
+      "sourceType": "com.tfb.pojo.User"
+    },
+    {
+      "name": "user.flag",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.tfb.pojo.User"
+    },
+    {
+      "name": "user.list",
+      "type": "java.util.List<java.lang.Object>",
+      "sourceType": "com.tfb.pojo.User"
+    },
+    {
+      "name": "user.map",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>",
+      "sourceType": "com.tfb.pojo.User"
+    },
+    {
+      "name": "user.name",
+      "type": "java.lang.String",
+      "sourceType": "com.tfb.pojo.User"
+    }
+  ],
+  "hints": []
+}

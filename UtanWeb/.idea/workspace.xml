@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="678888c2-ca3f-4ee7-8944-af80c47ce457" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../elcs/.idea/artifacts/Mybatis_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/.idea/artifacts/Mybatis_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/.idea/libraries/Maven__asm_asm_3_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/.idea/libraries/Maven__cglib_cglib_3_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_14_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_14_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/.idea/libraries/Maven__org_javassist_javassist_3_28_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/.idea/libraries/Maven__org_ow2_asm_asm_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/Mybatis/Mybatis.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/Mybatis/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/Mybatis/src/main/java/com/utan/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/Mybatis/src/main/java/com/utan/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/Mybatis/src/main/java/com/utan/pojo/UserCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/Mybatis/src/main/java/com/utan/pojo/UserCustomerVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/Mybatis/src/main/resources/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/Mybatis/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/Mybatis/src/main/resources/sqlMapConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/Mybatis/src/test/java/com/utan/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/src/main/java/com/utan08/CustomerThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/src/main/java/com/utan08/ProducerThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/src/main/java/com/utan08/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/src/main/java/com/utan08/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/src/main/java/com/utan09/CustomerThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/src/main/java/com/utan09/ProducerThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/src/main/java/com/utan09/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/src/main/java/com/utan09/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/src/main/java/com/utan10/CustomerThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/src/main/java/com/utan10/ProducerThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/src/main/java/com/utan10/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/src/main/java/com/utan10/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/src/main/java/com/utan11/CustomerThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/src/main/java/com/utan11/ProducerThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/src/main/java/com/utan11/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/src/main/java/com/utan11/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/target/classes/com/utan/Callable1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/target/classes/com/utan/MyAnnotation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/target/classes/com/utan/MyAnnotation2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/target/classes/com/utan/MyAnnotation3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/target/classes/com/utan/MyLinkedList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/target/classes/com/utan/Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/target/classes/com/utan/Outer$1A.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/target/classes/com/utan/Outer$1B.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/target/classes/com/utan/Outer$1C.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/target/classes/com/utan/Outer$D.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/target/classes/com/utan/Outer$E.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/target/classes/com/utan/Outer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/target/classes/com/utan/Outer2$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/target/classes/com/utan/Outer2$1A.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/target/classes/com/utan/Outer2$1B.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/target/classes/com/utan/Outer2$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/target/classes/com/utan/Outer2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/target/classes/com/utan/Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/target/classes/com/utan/Season.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/target/classes/com/utan/Season2$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/target/classes/com/utan/Season2$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/target/classes/com/utan/Season2$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/target/classes/com/utan/Season2$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/target/classes/com/utan/Season2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/target/classes/com/utan/SeasonInterface.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/target/classes/com/utan/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/target/classes/com/utan/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/target/classes/com/utan/Test10.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/target/classes/com/utan/TestAnnotation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/target/classes/com/utan/TestArrayList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/target/classes/com/utan/TestBuffered.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/target/classes/com/utan/TestCallable1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/target/classes/com/utan/TestClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/target/classes/com/utan/TestCopyFile.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/target/classes/com/utan/TestCopyImg.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/target/classes/com/utan/TestDate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/target/classes/com/utan/TestFileReader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/target/classes/com/utan/TestFileWrite.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/target/classes/com/utan/TestIO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/target/classes/com/utan/TestIO2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/target/classes/com/utan/TestInputStream.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/target/classes/com/utan/TestInputStreamReader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/target/classes/com/utan/TestInteger.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/target/classes/com/utan/TestMap.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/target/classes/com/utan/TestMath.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/target/classes/com/utan/TestNetWork.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/target/classes/com/utan/TestObjectIO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/target/classes/com/utan/TestOutputStream.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/target/classes/com/utan/TestReceive.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/target/classes/com/utan/TestSeason.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/target/classes/com/utan/TestSend.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/target/classes/com/utan/TestServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/target/classes/com/utan/TestSet$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/target/classes/com/utan/TestSet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/target/classes/com/utan/TestString.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/target/classes/com/utan/TestStringBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/target/classes/com/utan/TestThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/target/classes/com/utan/TestThread2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/target/classes/com/utan/TestThread3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/target/classes/com/utan/TestThread4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/target/classes/com/utan/TestThread5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/target/classes/com/utan/TestThread6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/target/classes/com/utan/TestThread7.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/target/classes/com/utan/Thread1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/target/classes/com/utan/Thread2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/target/classes/com/utan/Thread5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/target/classes/com/utan/Thread6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/target/classes/com/utan/Thread7.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/target/classes/com/utan/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/target/classes/com/utan/UtanException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/target/classes/com/utan/bijiaoqi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/target/classes/com/utan02/BuyTicketThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/target/classes/com/utan02/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/target/classes/com/utan04/BuyTicketThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/target/classes/com/utan04/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/target/classes/com/utan05/BuyTicketThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/target/classes/com/utan05/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/target/classes/com/utan06/BuyTicketThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/target/classes/com/utan06/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/target/classes/com/utan07/TestDieLock.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/target/classes/com/utan3/BuyTicketThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/target/classes/com/utan3/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/target/tomcat/conf/logging.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/target/tomcat/conf/tomcat-users.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/target/tomcat/conf/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/target/tomcat/logs/access_log.2021-06-03" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/index_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elcs/elcs-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/index_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../elcs/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../elcs/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../elcs/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../elcs/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../elcs/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../elcs/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../elcs/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../elcs/.idea/modules.xml" afterDir="false" />
+    </list>
+    <list id="0edda4be-dc27-4362-ba0a-b2fc6db44cd3" name="changelist2" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$PROJECT_DIR$/../../jdk1.8/src.zip!/java/lang/String.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../jdk1.8/src.zip!/java/util/Scanner.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/pom.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$PROJECT_DIR$/../../jdk1.8/jre/lib/rt.jar!/sun/misc/Launcher.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../jdk1.8/src.zip!/java/io/InputStreamReader.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../jdk1.8/src.zip!/java/io/PrintStream.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/java1234/Person.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$PROJECT_DIR$/../../jdk1.8/src.zip!/java/lang/ClassLoader.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\respository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../maven/apache-maven-3.8.1" />
+        <option name="userSettingsFile" value="D:\maven\apache-maven-3.8.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1sRKfc5QC3MQAv6OJpe34sXcbb8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../javaCore" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+  </component>
+  <component name="RunManager" selected="Application.Person">
+    <configuration name="Person" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java1234.Person" />
+      <module name="UtanWeb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java1234.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UtanWeb [deploy]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="deploy" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Person" />
+        <item itemvalue="Maven.UtanWeb [deploy]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\26503\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="678888c2-ca3f-4ee7-8944-af80c47ce457" name="Default Changelist" comment="" />
+      <changelist id="0edda4be-dc27-4362-ba0a-b2fc6db44cd3" name="changelist2" comment="" />
+      <created>1620830065364</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1620830065364</updated>
+      <workItem from="1620830068880" duration="596000" />
+      <workItem from="1620912514190" duration="4000" />
+      <workItem from="1621253717741" duration="403000" />
+      <workItem from="1621255770842" duration="5880000" />
+      <workItem from="1621336750294" duration="6498000" />
+      <workItem from="1621424523829" duration="9811000" />
+      <workItem from="1623156650460" duration="603000" />
+    </task>
+    <task id="LOCAL-00001" summary="wengkeh">
+      <created>1620830483641</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1620830483641</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="wengkeh" />
+    <option name="LAST_COMMIT_MESSAGE" value="wengkeh" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/java1234/Person.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/java1234/Person.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

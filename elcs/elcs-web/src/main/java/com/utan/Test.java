@@ -13,6 +13,7 @@ public class Test {
         Student student = new Student("a",11,'M',"ss");
         Student student2 = new Student("a",11,'M',"ss");
         System.out.println(student == student2);
+        student.compareTo(student2);
         System.out.println(student.equals(student2));
         student.a();
         System.out.println(student.getName());

@@ -9,6 +9,7 @@ import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 import java.time.temporal.TemporalAccessor;
 import java.util.Calendar;
+import java.util.Collections;
 import java.util.Date;
 import java.util.GregorianCalendar;
 
@@ -110,6 +111,7 @@ public class TestDate {
         //LocalDateTime转String
         String format = dateTimeFormatter.format(localDateTime);
         System.out.println(format);
+
 
         TemporalAccessor localDateTime4 = dateTimeFormatter.parse("2020年11月12日 11时11分11秒");
         System.out.println(localDateTime4);

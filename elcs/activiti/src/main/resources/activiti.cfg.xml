@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+						http://www.springframework.org/schema/contex http://www.springframework.org/schema/context/spring-context.xsd
+						http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd">
+
+    <bean id ="dataSourceActiviti" class="com.alibaba.druid.pool.DruidDataSource">
+        <property name="driverClassName" value="oracle.jdbc.driver.OracleDriver" />
+        <property name="url" value="jdbc:oracle:thin:@127.0.0.1:1521:orcl" />
+        <property name="username" value="wengkeh" />
+        <property name="password" value="wengkeh" />
+    </bean>
+    <!--activiti单独运行的ProcessEngine配置对象(processEngineConfiguration),使用单独启动方式
+        默认情况下：bean的id=processEngineConfiguration
+    -->
+
+    <bean id="processEngineConfiguration" class="org.activiti.engine.impl.cfg.StandaloneProcessEngineConfiguration">
+        <!--代表数据源-->
+        <property name="dataSource" ref="dataSourceActiviti"></property>
+
+
+        <!-- <property name="jdbcDriver" value="com.mysql.jdbc.Driver" />
+         <property name="jdbcUrl" value="jdbc:mysql://localhost:3306/activiti" />
+         <property name="jdbcUsername" value="root" />
+         <property name="jdbcPassword" value="root" />-->
+        <!--代表是否生成表结构-->
+        <property name="databaseSchemaUpdate" value="true"/>
+    </bean>
+</beans>

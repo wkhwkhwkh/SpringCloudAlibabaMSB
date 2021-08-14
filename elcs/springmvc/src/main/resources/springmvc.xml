@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+		http://www.springframework.org/schema/beans/spring-beans-3.2.xsd
+		http://www.springframework.org/schema/mvc
+		http://www.springframework.org/schema/mvc/spring-mvc-3.2.xsd
+		http://www.springframework.org/schema/context
+		http://www.springframework.org/schema/context/spring-context-3.2.xsd
+		http://www.springframework.org/schema/aop
+		http://www.springframework.org/schema/aop/spring-aop-3.2.xsd">
+
+    <!--处理@requestMapping-->
+    <mvc:annotation-driven/>
+    <!-- 对于注解的Handler可以单个配置
+	实际开发中建议使用组件扫描
+	 -->
+    <!-- <bean class="cn.itcast.ssm.controller.ItemsController3" /> -->
+    <!-- 可以扫描controller、service、...
+    这里让扫描controller，指定controller的包
+     -->
+    <context:component-scan base-package="com.tfb.controller"/>
+    <!-- 静态资源映射,可以配置多个
+        location元素表示webapp目录下的static包下的所有文件；
+        mapping元素表示以/static开头的所有请求路径，如/static/a 或者/static/a/b
+    -->
+    <mvc:resources mapping="/html/**" location="/html/" />
+
+
+    <!-- 视图解析器
+	解析jsp解析，默认使用jstl标签，classpath下的得有jstl的包
+	 -->
+    <bean
+            class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <!-- 配置jsp路径的前缀 -->
+        <property name="prefix" value="/WEB-INF/jsp/"/>
+        <!-- 配置jsp路径的后缀 -->
+        <property name="suffix" value=".jsp"/>
+    </bean>
+
+</beans>
