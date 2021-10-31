@@ -62,5 +62,10 @@ public class TestInteger {
         Double d = 123.2;
         System.out.println(c.equals(d));
         System.out.println(c==d);
+
+        int g = 1300;
+        Integer h = new Integer(1300);
+        System.out.println(g==h);
+        
     }
 }

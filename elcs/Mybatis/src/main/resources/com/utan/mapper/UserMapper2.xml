@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.utan.mapper.UserMapper2">
+    <insert id="add" parameterType="user1">
+        insert into user2(id2,name2,age2) values(#{id1},#{name1},#{age1})
+    </insert>
+
+    <select id="query" resultType="user1">
+        select * from user1
+    </select>
+</mapper>

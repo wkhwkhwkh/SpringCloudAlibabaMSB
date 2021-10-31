@@ -9,7 +9,7 @@ import static java.lang.Math.*;
  */
 public class Test {
     //main方法，程序入口
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception{
         Student student = new Student("a",11,'M',"ss");
         Student student2 = new Student("a",11,'M',"ss");
         System.out.println(student == student2);
@@ -31,5 +31,16 @@ public class Test {
         ArrayList arrayList = new ArrayList();
 
         System.out.println(1111);
+
+        if(1>0) System.out.println(333);
+        System.out.println(2222);
+
+        System.out.println("ab".compareTo("abc"));
+        System.out.println("abc".compareTo("" +
+                " abe"));
+
+
+        System.out.println(Student.class == new Student().getClass());
+        System.out.println(Class.forName("com.utan.Student") == Student.class.getClassLoader().loadClass("com.utan.Student"));
     }
 }

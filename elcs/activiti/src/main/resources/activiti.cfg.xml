@@ -7,11 +7,21 @@
 						http://www.springframework.org/schema/contex http://www.springframework.org/schema/context/spring-context.xsd
 						http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd">
 
-    <bean id ="dataSourceActiviti" class="com.alibaba.druid.pool.DruidDataSource">
+    <!--<bean id ="dataSourceActiviti" class="com.mchange.">
         <property name="driverClassName" value="oracle.jdbc.driver.OracleDriver" />
         <property name="url" value="jdbc:oracle:thin:@127.0.0.1:1521:orcl" />
         <property name="username" value="wengkeh" />
         <property name="password" value="wengkeh" />
+    </bean>-->
+
+
+    <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+        <!-- 用户名-->
+        <property name="user" value="wengkeh"/>
+        <!-- 用户密码-->
+        <property name="password" value="wengkeh"/>
+        <property name="driverClass" value="oracle.jdbc.driver.OracleDriver"/>
+        <property name="jdbcUrl" value="jdbc:oracle:thin:@127.0.0.1:1521:orcl"/>
     </bean>
     <!--activiti单独运行的ProcessEngine配置对象(processEngineConfiguration),使用单独启动方式
         默认情况下：bean的id=processEngineConfiguration
@@ -19,7 +29,7 @@
 
     <bean id="processEngineConfiguration" class="org.activiti.engine.impl.cfg.StandaloneProcessEngineConfiguration">
         <!--代表数据源-->
-        <property name="dataSource" ref="dataSourceActiviti"></property>
+        <property name="dataSource" ref="dataSource"></property>
 
 
         <!-- <property name="jdbcDriver" value="com.mysql.jdbc.Driver" />

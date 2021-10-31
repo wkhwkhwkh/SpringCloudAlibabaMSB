@@ -1,7 +1,6 @@
 package com.utan;
 
 import java.io.Serializable;
-import java.util.Comparator;
 
 /**
  * @author: java1234_翁克浩
@@ -28,7 +27,7 @@ public class Student extends Person implements Comparable, Serializable {
         this.sno = sno;
     }
 
-    public Student(String sno) {
+    public  Student(String sno) {
         this.sno = sno;
     }
 

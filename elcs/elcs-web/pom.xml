@@ -83,11 +83,6 @@
       <version>RELEASE124</version>
     </dependency>
 
-    <dependency>
-      <groupId>org.example</groupId>
-      <artifactId>javaCore</artifactId>
-      <version>1.0-SNAPSHOT</version>
-    </dependency>
     </dependencies>
 
   <build>

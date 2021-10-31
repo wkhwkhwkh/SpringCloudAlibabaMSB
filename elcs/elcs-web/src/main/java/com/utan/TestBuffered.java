@@ -1,7 +1,9 @@
 package com.utan;
 
-import java.io.*;
-import java.util.Scanner;
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
 
 /**
  * @author: java1234_翁克浩
@@ -11,8 +13,8 @@ import java.util.Scanner;
 public class TestBuffered {
     //main方法，程序入口
     public static void main(String[] args) throws IOException {
-        File file = new File("D:"+ File.separator+"IO2"+File.separator+"IO.txt");
-        File file2 = new File("D:"+ File.separator+"IO2"+File.separator+"IO7.txt");
+        File file = new File("E:"+ File.separator+"io.txt");
+        //File file2 = new File("E:"+ File.separator+"IO2"+File.separator+"IO7.txt");
 
         /**
          * 字节缓冲流
@@ -32,18 +34,18 @@ public class TestBuffered {
          */
         //字符缓冲流
         FileReader reader = new FileReader(file);
-        FileWriter writer = new FileWriter(file2);
+        //FileWriter writer = new FileWriter(file2);
 
         BufferedReader br = new BufferedReader(reader);
-        BufferedWriter bw = new BufferedWriter(writer);
+        //BufferedWriter bw = new BufferedWriter(writer);
 
         char [] chars = new char[1024];
         int len = br.read(chars);
         while(len!=-1){
-            bw.write(chars,0,len);
+           // bw.write(chars,0,len);
             len = br.read(chars);
         }
-        bw.close();
+       // bw.close();
         br.close();
     }
 }

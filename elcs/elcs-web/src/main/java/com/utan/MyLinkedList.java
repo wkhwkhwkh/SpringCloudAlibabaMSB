@@ -4,7 +4,7 @@ package com.utan;
  * @author: java1234_翁克浩
  * @version: 1.0
  */
-public class MyLinkedList {
+public class  MyLinkedList {
     private Node first;
 
     private Node last;
@@ -56,5 +56,10 @@ public class MyLinkedList {
         myLinkedList.add("ddafsdfdd");
         System.out.println(myLinkedList.size());
         System.out.println(myLinkedList.get(3));
+
+        int compare = Double.compare(19, 20);
+        System.out.println(compare);
+
+
     }
 }

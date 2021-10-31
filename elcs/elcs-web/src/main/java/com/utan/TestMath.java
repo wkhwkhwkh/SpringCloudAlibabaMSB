@@ -40,11 +40,21 @@ public class TestMath {
         int j = random2.nextInt();
         System.out.println(j);
 
+
         Random random3 = new Random();
         int t = random3.nextInt(10);//产生[0,10)的int随机数
         System.out.println(t);
 
         double r = random3.nextDouble();//与Math.random()效果相同
         System.out.println(r);
+
+        Byte a = 127;
+        ++a;
+        System.out.println(a);
+
+        String str = new String("ad");
+
+
+        StringBuilder sb = new StringBuilder("add");
     }
 }

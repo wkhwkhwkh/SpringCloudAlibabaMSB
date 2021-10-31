@@ -22,6 +22,6 @@ public class Person {
     @ApiModelProperty("用户名")
     private String name;
 
-    @ApiModelProperty("年龄")
+    @ApiModelProperty(value = "年龄",hidden = true)
     private int age;
 }

@@ -27,6 +27,8 @@
       <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/test/resources" type="java-test-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/${project.build.directory}/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/${project.build.directory}/test-classes" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />
@@ -55,6 +57,5 @@
     <orderEntry type="library" name="Maven: org.apache.lucene:lucene-core:8.8.2" level="project" />
     <orderEntry type="library" name="Maven: org.apache.lucene:lucene-spatial:8.4.1" level="project" />
     <orderEntry type="library" name="Maven: org.netbeans.api:org-netbeans-libs-lucene:RELEASE124" level="project" />
-    <orderEntry type="library" name="Maven: org.example:javaCore:1.0-SNAPSHOT" level="project" />
   </component>
 </module>

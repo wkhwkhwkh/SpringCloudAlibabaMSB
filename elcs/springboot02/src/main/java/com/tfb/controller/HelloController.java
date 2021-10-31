@@ -4,8 +4,10 @@ import com.tfb.pojo.Person;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
-import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
 
 /**
  * @author: java1234_翁克浩
@@ -13,7 +15,7 @@ import org.springframework.web.bind.annotation.*;
  */
 @RestController
 //接口中文注释
-@Api("Hello")
+@Api(tags = {"hello","hello2"},description = "描述信息")
 public class HelloController {
 
     @GetMapping("/hello")

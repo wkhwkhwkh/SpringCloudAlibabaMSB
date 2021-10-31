@@ -4,12 +4,10 @@ package com.tfb;
 import org.activiti.engine.*;
 import org.activiti.engine.history.HistoricActivityInstance;
 import org.activiti.engine.history.HistoricActivityInstanceQuery;
-import org.activiti.engine.impl.event.logger.handler.ProcessInstanceEndedEventHandler;
 import org.activiti.engine.repository.Deployment;
 import org.activiti.engine.repository.ProcessDefinition;
 import org.activiti.engine.repository.ProcessDefinitionQuery;
 import org.activiti.engine.runtime.ProcessInstance;
-import org.activiti.engine.runtime.ProcessInstanceQuery;
 import org.activiti.engine.task.Task;
 import org.apache.commons.io.IOUtils;
 import org.junit.Test;
@@ -30,7 +28,7 @@ public class ActivitiDemo {
         ProcessEngine engine = ProcessEngines.getDefaultProcessEngine();
         //获取RepositoryService
         RepositoryService repositoryService = engine.getRepositoryService();
-        File file = new File("D:\\project\\elcs\\activiti\\src\\main\\resources\\bpmn\\chuchai.bpmn");
+        File file = new File("E:\\project\\elcs\\activiti\\src\\main\\resources\\bpmn\\chuchai.bpmn");
         InputStream is = new FileInputStream(file);
         //使用service进行流程部署，定义流程名称,添加bpmn文件
         Deployment deployment = repositoryService.createDeployment()
@@ -109,7 +107,7 @@ public class ActivitiDemo {
         TaskService task = engine.getTaskService();
 
         //完成任务
-        task.complete("50002");
+        task.complete("20005");
     }
 
     /**
@@ -186,6 +184,7 @@ public class ActivitiDemo {
             System.out.println(historicActivityInstance.getProcessInstanceId());
             System.out.println(historicActivityInstance.getProcessDefinitionId());
             System.out.println("============");
+
         }
     }
 
@@ -226,6 +225,7 @@ public class ActivitiDemo {
             runtimeService.suspendProcessInstanceById(instance.getProcessInstanceId());
             System.out.println("流程实例:" + instance.getProcessInstanceId() + "挂起");
         }
-
     }
+
+
 }

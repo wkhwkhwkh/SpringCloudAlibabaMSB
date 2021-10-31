@@ -25,5 +25,25 @@ public class TestArrayList {
                 it.add("tt");
         }
         System.out.println(list);
+
+        List list1 = new ArrayList();
+        list1.add(1);
+
+
+        int a = Integer.MAX_VALUE-11111111;
+        System.out.println(Integer.MAX_VALUE);
+        System.out.println(a);
+        int v =  a + (a>>1);
+        System.out.println(v);
+
+        int b = Integer.MAX_VALUE + 2;
+        System.out.println(b);
+
+        int c = 2147483647+1;
+        System.out.println(c);
+
+        //char d = 65535+1;
+        System.out.println((int)Character.MAX_VALUE);
+        System.out.println(Short.MAX_VALUE);
     }
 }

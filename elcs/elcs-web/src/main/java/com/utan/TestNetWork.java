@@ -17,7 +17,7 @@ public class TestNetWork {
         System.out.println(inetAddress2);
         InetAddress inetAddress3 = InetAddress.getByName("192.168.1.111");
         System.out.println(inetAddress3);
-        InetAddress inetAddress4 = InetAddress.getByName("DESKTOP-USNS38U");//计算机名
+        InetAddress inetAddress4 = InetAddress.getByName("DESKTOP-P1C6N0R");//计算机名
         System.out.println(inetAddress4);
         InetAddress inetAddress5 = InetAddress.getByName("www.baidu.com");//计算机名
         System.out.println(inetAddress5);

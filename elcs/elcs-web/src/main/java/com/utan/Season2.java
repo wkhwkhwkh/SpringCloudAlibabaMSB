@@ -1,7 +1,5 @@
 package com.utan;
 
-import javax.swing.*;
-
 /**
  * @author: java1234_翁克浩
  * @version: 1.0
