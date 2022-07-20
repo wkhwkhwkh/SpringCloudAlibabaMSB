@@ -1,0 +1,25 @@
+
+server:
+  port: 8888
+
+spring:
+  application:
+    name: albaba-service-openfeign
+  cloud:
+    discovery:
+      server-addr: localhost:8848
+
+#openfeign默认超时时间为1秒，1秒后服务方未作出响应,直接报错,需作出以下配置
+ribbon:
+  ReadTimeout: 5000
+  ConnectTimout: 5000
+
+management:
+  endpoint:
+    web:
+      exposure:
+        include: '*'
+logging:
+  level:
+    com.msb.openfeignalibabaservice8888.feign.OpenFeignClient: debug
+

@@ -1,0 +1,26 @@
+
+server:
+  port: 8402
+
+spring:
+  application:
+    name: albaba-sentinel-service
+  cloud:
+    discovery:
+      server-addr: localhost:8848
+    sentinel:
+      transport:
+        dashboard: localhost:8080
+        port: 8719 #默认8719端口,键入被占用会自动从8719+1,直到找到未被占用的端口
+
+
+management:
+  endpoint:
+    web:
+      exposure:
+        include: '*'
+
+#激活sentinel对openfeign的支持
+feign:
+  sentinel:
+    enabled: true
